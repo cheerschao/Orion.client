@@ -61,7 +61,7 @@ define([
 		}
 		return false;
 	}
-
+	/*globals URL*/
 	/* parses ssh gitUrl to get hostname and port */
 	function parseSshGitUrl(gitUrl){
 		try {
